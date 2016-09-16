@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <!-- set viewport to device width to allow responsiveness -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Font Style Sheet -->
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Tamma" rel="stylesheet">
+    <!-- link to custom stylesheet -->
+    <link rel="stylesheet" href="styles.css" media="screen" title="no title" charset="utf-8">
+    <!-- jQuery from CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <!-- link to custom javascript file-->
+    <script src="app.js"></script>
+    <title>Race Time</title>
+</head>
+  <body>
+    <h1>Race Time</h1>
+    <p>When the clock starts use your key to move your car forward.</p>
+    <p>Each move increases your score. The player with the highest score wins!</p>
+    <center>
+    <div id ="button-wrapper">
+      <button type="button" class="game-start" id = "game-start-button" aria-label="Left Align">Ready to Play?</button>
+      <h2 class = "game-prompt"></h2>
+    </div>
+    <div id ="end-of-game">
+      <div id="winner-declaration">
+      </div>
+    </div>
+    <div class="clock">
+      <ul>
+        <li id="sec">00</li>
+      </ul>
+    </div>
+    </center>
+    <!-- <div class="clearfix"> -->
+    <section id = "player1">
+      <img src="imgs/cream-car.jpg">
+      <h2>Player One</h2>
+      <p>Click the <span>A</span> Key</p>
+      <h2>Score</h2>
+      <div id = "player65Score">
+      </div>
+    </section>
+    <section id = "player2">
+      <img src="imgs/teal-car.jpg" align="right">
+      <h2>Player Two</h2>
+      <p>Click the <span>L</span> Key</p>
+      <h2>Score</h2>
+      <div id ="player76Score">
+      </div>
+    </section>
+  </div>
+  </body>
+  <!-- <footer>
+    Made by Misha LeClair
+  </footer> -->
+</html>

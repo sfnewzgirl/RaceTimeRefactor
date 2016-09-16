@@ -1,0 +1,114 @@
+body {
+  background-color: #fffefe;
+  font-family: 'Baloo Tamma', cursive;
+}
+h1 {
+  background-color: #38b5c1;
+  color: #1c4454;
+  text-shadow: 3px 3px #fffefe;
+  text-align: center;
+  font-size: 5.5em;
+  padding: 0 auto;
+  margin: auto;
+}
+h2 {
+  color: #1c4454;
+  text-align: center;
+  margin: auto;
+}
+p {
+  background-color: #a7f6fb;
+  color: #1c4454;
+  font-size: 1.25em;
+  text-align: center;
+  margin: auto;
+}
+.game-start {
+  font-size: 1.5em;
+  height: 75px;
+  width: 200px;
+  border-radius: 30px;
+  border-width: 5px;
+  margin-top: 1em;
+  background-color: #a7f6fb;
+  color: #1c4454;
+  border-color: #1c4454;
+}
+.game-prompt {
+  display: none;
+}
+.clock {
+  display: block;
+  background-color: #38b5c1;
+  margin-left: 30em;
+  margin-right: 30em;
+}
+#winner-declaration {
+  color: #1c4454;
+  font-size: 3em;
+}
+ul {
+  padding: inherit;
+}
+li {
+  font-size: 4em;
+  text-align: center;
+  display: inline;
+  list-style-type: none;
+}
+span {
+  color: #e7377d;
+  font-size: 1.75em;
+}
+/*#cream-car {
+  float: left;
+  display: block;
+  width: 50%;
+}
+#teal-car {
+  float: right;
+  display: block;
+  width: 50%;
+}
+.clearfix {
+  clear: both;
+}*/
+#player1 {
+  background-color: #38b5c1;
+  display: inline-block;
+  float: left;
+  margin-left: 6em;
+  height: 250px;
+  width: 200px;
+}
+#player2 {
+  background-color: #38b5c1;
+  display: inline-block;
+  float: right;
+  margin-right: 6em;
+  height: 250px;
+  width: 200px;
+}
+#player2 img {
+  direction: rtl;
+}
+#player65Score, #player76Score {
+  font-size: 4em;
+  color: #1c4454;
+  text-align: center;
+}
+.clearfix:after {
+ visibility: hidden;
+ display: block;
+ content: " ";
+ clear: both;
+ height: 0;
+ font-size: 0;
+}
+/*footer {
+  clear: both;
+  position: absolute;
+  text-align: center;
+  background-color: #1c4454;
+  color: #fffefe;
+}*/
